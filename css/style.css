@@ -4,8 +4,13 @@ margin:0px;
 color:#D1D1D1;
 font-family: Calibri ;
 }
+
+#tp-widget-default{
+margin-top:30px;
+float:left;
+}
 input{
-	padding:5px;
+padding:5px;
 }
 table, th, td {
 padding: 10px;
@@ -39,11 +44,10 @@ font-size:25px
 }
 
 #content{
-width:100%;
+margin-left:25%;
 padding-top:30px;
-display: flex;
-justify-content: center;
-
+width:40%;
+float:left;
 }
 #footer{
 clear:both;
