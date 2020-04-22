@@ -5,6 +5,17 @@ color:#D1D1D1;
 font-family: Calibri ;
 }
 
+#mapa{
+position:absolute;
+top:50%;
+right:15%;
+}
+#waluta{
+position:absolute;
+left:15%;
+top:50%;
+}
+
 #tp-widget-default{
 margin-top:30px;
 float:left;
