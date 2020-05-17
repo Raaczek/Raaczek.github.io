@@ -4,6 +4,27 @@ margin:0px;
 color:#D1D1D1;
 font-family: Calibri ;
 }
+.pionowe{
+width:100%;
+background-color:#464a71;	
+text-align:center;
+padding:25px;
+color:white;
+}.pionowe:link {
+  background-color: #565b82;
+  }
+  
+.pionowe:active {
+  background-color: #565b82;
+  }
+  
+.pionowe:hover {
+  background-color: #565b82;
+ }
+ 
+.pionowe:visited {
+  background-color: #565b82;
+  }
 
 #mapa{
 position:absolute;
