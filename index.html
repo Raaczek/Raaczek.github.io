@@ -6,16 +6,16 @@
 	<link rel="alternate stylesheet" type="text/css" href="css/style1.css" title="Alternatywny"></head>
 <body>
 	<div id="stronka">
-		<div id="header">
+		<header id="header">
 		<a href="index.html"><h1>Top 10 Polaków</h1></a>
-		</div>
-		<div id="menu">
+		</header>
+		<nav id="menu">
 			<a href="index.html" >
 			<div class="link">Ranking</div></a>
 			<a href="formularz.html">
 			<div class="link">Zgłoś kandydata</div></a>
-		</div>
-		<div id="content">
+		</nav>
+		<article id="content">
 			<a href="widget.html" style="font-size:30px;">>>>>Widgety<<<< </a><br>
 			<a href="pionowe.html" style="font-size:30px;">>>>>Menu pionowe<<<< </a><br>
 			<a href="kolumny.html" style="font-size:30px;">>>>>Kolumny<<<< </a>
@@ -43,9 +43,38 @@
 			</ol>
 			<div class="fotki"><img src="img/graj.png"/>	
 			<img src="img/czarnuch.png"/></div>
+			<form action="mailto:raczek00717@wp.pl" method="post">
+				 <p>1.Jak nazywali się przodkowie Francuzów</p>
+				 <input name="1" type="text"/>
+				 <p>2.Kto jest obecnie prezydentem Francji</p>
+				 <input name="2" type="text"/>
+				 <p>3.Z czego słynie miasto Sevres?</p>
+				 <input name="3" type="text"/>
+				 <p>4.Ilu mieszkańców liczy Francja? - dopuszczalna pomyłka do 100 tys.</p>
+				 <input name="4" type="number" step="100000"/>
+				 <p><input type="submit" value="Wyślij"/></p>
+				
+			</form>
 			<div class="kwiat"><img src="img/kwiat.png " alt="kaktus" width="350" height="500"/><p>Kaktus</p></div><br>
 			Kaktusowate (Cactaceae Juss., zwyczajowo nazywane kaktusami) – rodzina sukulentów łodygowych (wieloletnich, zielnych lub częściowo zdrewniałych), należąca do rzędu goździkowców.
-			</div>
+			<p>Malbork to popularne miasto w województwie pomorskim, malowniczo ulokowane nad rzeką Nogat, pomiędzy Tczewem i Elblągiem.</br>
+			Malbork zyskał sławę w szerokim świecie głównie dzięki potężnej twierdzy krzyżackiej, nie mającej w Polsce równej sobie.</p>
+			<h1>Dzielnice miasta i ich zabytki</h1>
+			<img src="img/herb.png" width="150" height="200"/>
+			<ol type="A">
+				<li>Stare miasto</li>
+				<ol type="I">
+					<li>Ratusz Staromiejski</li>
+					<li>Brama Garncarska</li>
+				</ol>
+				<li>Centrum</li>
+				<ul type="disc">
+					<li>Urząd Pocztowy</li>
+					<li>Wieża ciśnień</li>
+				</ul>
+			</ol>
+			
+			</article>
 			</div>
 			<div id="tp-widget-default" data-city="101133" data-version="2.0.0">
 				<div id="tp-widget-bottom-default">
@@ -64,13 +93,14 @@
 			
 			</div>
 			
+			
 		
-		<div id="footer">
+		<footer id="footer">
 		Łukasz R. &copy;<a href="http://jigsaw.w3.org/css-validator/check/referer%22%3E">
             <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
                 alt="Poprawny CSS!" />
             </a>
-		</div>
+		</footer>
 	</div>
 	
 
